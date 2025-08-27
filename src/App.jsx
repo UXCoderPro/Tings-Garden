@@ -8,11 +8,12 @@ import Service from "./Pages/Service";
 import Contact from "./Pages/Contact";
 import Nopage from "./Pages/Nopage";
 import NavBar from "./Components/Nav-Bar";
+import ProductDetails from "./Pages/ProductDetails";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="bg-white w-full">
+      <div className="bg-white w-full overflow-hidden">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/fertilizer" element={<Fertilizer />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="*" element={<Nopage />} />
         </Routes>
         <footer>Footer</footer>

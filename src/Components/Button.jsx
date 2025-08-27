@@ -14,7 +14,7 @@ const Button = ({
   return (
     <motion.button
       onClick={handleClick}
-      className={`flex items-center justify-center font-mont px-9 py-3  ${color} ${outlineClasses} ${txtColor} text-lg rounded-full  font-normal hover:bg-primary hover:text-white transition-colors`}
+      className={`flex items-center justify-center font-mont px-9 py-3   ${color} ${outlineClasses} ${txtColor} lg:text-lg text-base rounded-full  font-normal hover:bg-primary hover:text-white transition-colors`}
       initial={{ opacity: 0, scale: 0.9 }} // fade + shrink on mount
       animate={{ opacity: 1, scale: 1 }} // grow into place
       whileHover={{ scale: 1.05, y: -2 }} // subtle pop + lift
