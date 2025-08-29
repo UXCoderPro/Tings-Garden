@@ -14,3 +14,28 @@
   font-size: 18px; /* smaller arrow size */
   font-weight: bold;
 }
+
+/* Move pagination closer to cards */
+.swiper-pagination {
+  position: relative !important; /* relative keeps it under the cards */
+  margin-top: 20px; /* adjust spacing */
+  text-align: center;
+}
+
+/* Default bullet */
+.swiper-pagination-bullet {
+  background: #d1d5db; /* gray-300 */
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0 6px !important;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+/* Active bullet */
+.swiper-pagination-bullet-active {
+  background: #cb2456; /* your brand color */
+  width: 30px; /* pill shape */
+  border-radius: 8px;
+}

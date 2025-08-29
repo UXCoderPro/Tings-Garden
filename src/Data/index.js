@@ -48,6 +48,19 @@ import ins22 from "../Assets/Ins/ins01.png";
 import ins23 from "../Assets/Ins/ins01.png";
 import ins24 from "../Assets/Ins/ins01.png";
 
+import ser01 from "../Assets/ser01.png";
+import ser02 from "../Assets/ser02.png";
+
+import Act01 from "../Assets/Test/t01.jpg";
+import Act02 from "../Assets/Test/t02.webp";
+import Act03 from "../Assets/Test/t03.webp";
+import Act04 from "../Assets/Test/t04.webp";
+import Act05 from "../Assets/Test/t05.webp";
+import Act06 from "../Assets/Test/t06.webp";
+
+import s1 from "../Assets/Shop/s1.jpg";
+import s2 from "../Assets/Shop/s2.jpg";
+
 export const products = [
   // 🌸 Flowers
   {
@@ -498,5 +511,93 @@ export const products = [
       "Apply in small doses and water immediately to avoid burns.",
     instructionImage: ins24,
     stock: true,
+  },
+];
+
+export const service = [
+  {
+    id: "s-01",
+    title: "Transform Your Outdoor Space with Our Expert Landscaping Services",
+    description:
+      "Transform your outdoor space with our expert landscaping services. We specialize in creating beautiful, sustainable landscapes that enhance the natural beauty of your property. From garden design and plant selection to hardscaping and maintenance, our team brings your vision to life with creativity and professionalism.",
+    image: ser01,
+  },
+
+  {
+    id: "s-02",
+    title: "Keep Your Garden Blooming with Our Maintenance Services",
+    description:
+      "Ensure your garden stays vibrant and blooming year-round with our expert flower maintenance services. We provide regular care, including watering, pruning, fertilizing, and pest management, to keep your flowers healthy and thriving. Our team tailors services to your garden's unique needs, ensuring a beautiful and colorful display in every season..",
+    image: ser02,
+  },
+];
+
+export const testimonial = [
+  {
+    id: "t-01",
+    name: "Monica Belluci",
+    content:
+      "The bouquet I ordered was even more beautiful in real life than in the pictures. Fresh, vibrant, and perfectly arranged—delivered right on time. It made my anniversary extra special!",
+    image: Act01,
+  },
+  {
+    id: "t-02",
+    name: "Yasmin Wijinaldum",
+    content:
+      "I’ve never experienced such smooth online ordering. The checkout was simple, the delivery was fast, and the flowers were stunning. Definitely my go-to flower shop now.",
+    image: Act02,
+  },
+  {
+    id: "t-03",
+    name: "Bella Hadid",
+    content:
+      "I ordered flowers for my mom’s birthday, and she was overjoyed. The colors were so lively and the fragrance filled the room. Thank you for making the day memorable!",
+    image: Act03,
+  },
+  {
+    id: "t-04",
+    name: "Irina Shayk",
+    content:
+      "What I love most is the attention to detail. From the packaging to the little handwritten note, everything felt personal. It’s not just flowers—it’s an experience.",
+    image: Act04,
+  },
+  {
+    id: "t-05",
+    name: "Mona Tougaard",
+    content:
+      "I had to send a last-minute gift, and this shop saved me! The same-day delivery was a lifesaver, and the bouquet looked absolutely gorgeous.",
+    image: Act05,
+  },
+  {
+    id: "t-06",
+    name: "Emily Ratajkowski",
+    content:
+      "The floral arrangement exceeded my expectations. It looked premium, fresh, and lasted longer than any bouquet I’ve ordered before. Highly recommended!",
+    image: Act06,
+  },
+];
+
+export const stores = [
+  {
+    id: 1,
+    name: "Outlet 1",
+    address: "BLK 82 Marine Parade #01-606 S440082",
+    phone: "+65 94572331",
+    timings: {
+      weekday: "Monday – Friday: 7am – 7pm",
+      weekend: "Saturday – Sunday: 8am – 7pm",
+    },
+    image: s1,
+  },
+  {
+    id: 2,
+    name: "Outlet 2",
+    address: "123 Orchard Road #02-110 S238888",
+    phone: "+65 81234567",
+    timings: {
+      weekday: "Monday – Friday: 9am – 8pm",
+      weekend: "Saturday – Sunday: 10am – 6pm",
+    },
+    image: s2,
   },
 ];

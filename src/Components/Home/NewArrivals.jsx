@@ -41,7 +41,7 @@ const NewArrivals = () => {
               </div>
 
               <div className=" bg-[#F0516D] lg:col-span-2 relative flex flex-col justify-start items-center">
-                <div className="flex flex-col items-center z-10 absolute lg:right-6 top-1/2 lg:w-2/3 w-full px-3 -translate-y-1/2 gap-6 lg:px-20 px-4">
+                <div className="flex flex-col items-center z-10 absolute lg:right-6 top-1/2 lg:w-2/3 w-full  -translate-y-1/2 gap-6 lg:px-20 px-4">
                   <h1 className="text-center text-white font-italian font-normal text-4xl">
                     {product.name}
                   </h1>
