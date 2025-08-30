@@ -40,14 +40,14 @@ const Category = () => {
           ))}
         </div>
 
-        <div className="lg:max-w-7xl md:max-w-3xl max-w-lg px-10 h-auto mt-8">
+        <div className="lg:max-w-7xl md:max-w-3xl max-w-lg   px-10 h-auto  mt-8">
           <Swiper
             modules={[Navigation]}
             navigation
             spaceBetween={0}
             slidesPerView={4} // base
             breakpoints={{
-              420: { slidesPerView: 1, spaceBetween: 2 },
+              420: { slidesPerView: 1, spaceBetween: 6 },
               640: { slidesPerView: 2, spaceBetween: 4 },
               1024: { slidesPerView: 4, spaceBetween: 24 },
             }}

@@ -9,6 +9,7 @@ import Contact from "./Pages/Contact";
 import Nopage from "./Pages/Nopage";
 import NavBar from "./Components/Nav-Bar";
 import ProductDetails from "./Pages/ProductDetails";
+import Footer from "./Components/Home/Footer";
 
 const App = () => {
   return (
@@ -26,7 +27,7 @@ const App = () => {
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="*" element={<Nopage />} />
         </Routes>
-        <footer>Footer</footer>
+        <Footer />
       </div>
     </BrowserRouter>
   );

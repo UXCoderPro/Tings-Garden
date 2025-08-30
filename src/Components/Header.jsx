@@ -11,12 +11,12 @@ const Header = ({ title, desc }) => {
         duration: 0.8,
         ease: "easeInOut",
       }}
-      className="flex flex-col justify-center items-center gap-6 lg:w-3/4 md:w-3/4 w-full px-4"
+      className="flex flex-col justify-center items-center gap-6 lg:max-w-7xl md:w-3/4 w-full px-4"
     >
       <h1 className="text-secondary text-center font-italian font-semibold lg:text-5xl md:text-4xl text-2xl">
         {title}
       </h1>
-      <p className="text-center font-mont text-text font-medium lg:text-2xl md:text-xl text-lg">
+      <p className="text-center font-mont text-text font-medium lg:text-xl md:text-xl text-lg">
         {desc}
       </p>
     </motion.div>

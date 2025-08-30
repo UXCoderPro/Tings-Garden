@@ -61,6 +61,18 @@ import Act06 from "../Assets/Test/t06.webp";
 import s1 from "../Assets/Shop/s1.jpg";
 import s2 from "../Assets/Shop/s2.jpg";
 
+import ab01 from "../Assets/About/SerCover.png";
+import ab02 from "../Assets/About/ab02.png";
+import ab03 from "../Assets/About/ab03.png";
+import ab04 from "../Assets/About/ab04.png";
+import ab05 from "../Assets/About/ab05.png";
+
+import ab06 from "../Assets/About/ab06.png";
+import ab07 from "../Assets/About/ab07.png";
+import ab08 from "../Assets/About/ab08.png";
+import ab09 from "../Assets/About/ab09.png";
+import ab10 from "../Assets/About/ab10.png";
+
 export const products = [
   // 🌸 Flowers
   {
@@ -599,5 +611,72 @@ export const stores = [
       weekend: "Saturday – Sunday: 10am – 6pm",
     },
     image: s2,
+  },
+];
+
+export const aboutUs = [
+  {
+    id: 1,
+    sno: "01",
+    mainTitle:
+      "Transform Your Outdoor Space with Our Expert Landscaping Services",
+    mainDesc:
+      "Transform your outdoor space with our expert landscaping services. We specialize in creating beautiful, sustainable landscapes that enhance the natural beauty of your property. From garden design and plant selection to hardscaping and maintenance, our team brings your vision to life with creativity and professionalism.",
+    mainImage: ab01,
+    firstImage1: ab02,
+    firstImage2: ab03,
+    firstHeading: "Custom Landscaping Design",
+    firstDesc:
+      "Our custom landscaping design service begins with understanding your preferences and property. We create personalized plans that harmonize with your environment.",
+    firstList: [
+      "Site analysis and evaluation",
+      "Conceptual and detailed design",
+      "Plant selection and placement",
+      "Hardscaping elements (patios, pathways, water features)",
+      "Lighting and irrigation systems",
+    ],
+    secondImage1: ab04,
+    secondImage2: ab05,
+    secondHeading: "Garden Installation",
+    secondDesc:
+      "Transform your outdoor space with our professional garden installation services. We handle everything from soil preparation to planting, ensuring your garden thrives.",
+    secondList: [
+      "Soil preparation and conditioning",
+      "Planting of flowers, shrubs, and trees",
+      "Installation of hardscape features",
+      "Irrigation system setup",
+      "Post-installation care and guidance",
+    ],
+  },
+
+  {
+    id: 2,
+    sno: "02",
+    mainTitle: "Keep Your Garden Blooming with Our Maintenance Services",
+    mainDesc:
+      "Ensure your garden stays vibrant and blooming year-round with our expert flower maintenance services. We provide regular care, including watering, pruning, fertilizing, and pest management, to keep your flowers healthy and thriving. Our team tailors services to your garden's unique needs, ensuring a beautiful and colorful display in every season.",
+    mainImage: ab06,
+    firstImage1: ab07,
+    firstImage2: ab08,
+    firstHeading: "Lawn Care and Maintenance",
+    firstDesc:
+      "A lush, green lawn is the centerpiece of any beautiful landscape. Our comprehensive lawn care services ensure your grass stays healthy and vibrant year-round. Our services include:",
+    firstList: [
+      "Lawn mowing and edging",
+      "Fertilization and weed control",
+      "Aeration and overseeding",
+      "Pest and disease management",
+    ],
+    secondImage1: ab09,
+    secondImage2: ab10,
+    secondHeading: "Seasonal Clean-Up and Plant Care",
+    secondDesc:
+      "Keep your garden looking its best through every season with our seasonal clean-up and plant care services. We provide:",
+    secondList: [
+      "Spring and fall clean-up",
+      "Pruning and trimming of trees and shrubs",
+      "Annual and perennial planting",
+      "Winterizing plants and garden beds",
+    ],
   },
 ];

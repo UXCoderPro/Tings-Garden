@@ -4,8 +4,9 @@ import { service } from "../../Data";
 import bgTree from "../../Assets/bgTree.png";
 import Button from "../Button";
 import { motion } from "motion/react";
+import Header from "../Header";
 
-const OurService = () => {
+const OurService = ({ title, desc }) => {
   return (
     <div className="w-full pb-48">
       <div
@@ -17,18 +18,7 @@ const OurService = () => {
           backgroundPosition: "right",
         }}
       >
-        <motion.h1
-          initial={{ opacity: 0.5, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
-          }}
-          className="font-italian font-bold lg:text-6xl text-secondary md:text-4xl text-3xl"
-        >
-          Our Service
-        </motion.h1>
+        <Header title={title} desc={desc} />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 lg:px-6 py-16 space-y-20">

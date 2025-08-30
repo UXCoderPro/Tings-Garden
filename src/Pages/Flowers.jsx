@@ -1,7 +1,8 @@
 import React from "react";
+import ProductListing from "../Components/ProductList";
 
 const Flowers = () => {
-  return <div>Flower</div>;
+  return <ProductListing category="Flowers" />;
 };
 
 export default Flowers;
